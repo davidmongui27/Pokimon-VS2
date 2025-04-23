@@ -1,0 +1,66 @@
+body {
+    background-image: url("../Imagenes/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+
+
+    font-family: 'Verdana', sans-serif;
+    color: #fff;
+}
+
+center {
+    background: rgba(255, 255, 255, 0.1);
+    border: 3px solid #fcd300;
+    border-radius: 15px;
+    padding: 20px 30px;
+    margin: 20px auto;
+    width: 350px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+center h1 {
+    font-size: 24px;
+    color: #ffcb05;
+    text-shadow: 2px 2px 4px #3b4cca;
+    margin-bottom: 10px;
+}
+
+center p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+center label {
+    font-weight: bold;
+    color: #fff;
+}
+
+center input {
+    padding: 8px;
+    border: 2px solid #3b4cca;
+    border-radius: 8px;
+    margin: 5px 0;
+    width: 80%;
+    font-size: 14px;
+}
+
+center button {
+    background-color: #9f0409;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+center button:hover {
+    background-color: #4d0303;
+}

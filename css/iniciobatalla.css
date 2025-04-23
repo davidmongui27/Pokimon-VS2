@@ -1,0 +1,75 @@
+body {
+  background-image: url("../Imagenes/6.png"); /* Cambia esta ruta a donde tengas tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: 'Verdana', sans-serif;
+  color: #fff;
+}
+
+/* Encabezado principal */
+h1 {
+  text-shadow: 2px 2px 5px #000;
+  margin: 20px 0;
+}
+
+/* Fieldsets con estilo */
+fieldset {
+  background: rgba(0, 0, 0, 0.7);
+  border: 3px solid #ffd700;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px #000;
+}
+
+/* Leyendas de los fieldsets */
+legend {
+  padding: 0 10px;
+  font-size: 1.3rem;
+  color: #ffd700;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* Etiquetas */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+/* Inputs y selects */
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+/* Centrar contenido */
+center {
+  text-align: center;
+}
+
+/* Opcional: estilo para botón si decides ponerlo después */
+button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px #000;
+}
+
+button:hover {
+  background-color: #cc0000;
+}

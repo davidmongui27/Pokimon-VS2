@@ -1,0 +1,86 @@
+body {
+    background-image: url("../Imagenes/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Centro con forma y colores de Pokébola */
+center {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #ff00009a 50%, #ffffff90 50%);
+    border: 8px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Línea negra central */
+center::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 14px;
+    width: 100%;
+    background: black;
+    transform: translateY(-50%);
+}
+
+/* Botón central */
+.poke-boton {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+/* Estilos del contenido */
+center h1 {
+    color: #222;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    z-index: 2;
+    text-align: center;
+}
+
+center p {
+    color: #333;
+    font-size: 1rem;
+    margin: 10px 20px;
+    z-index: 2;
+    text-align: center;
+}
+
+center button {
+    background-color: #02d109;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2;
+    transition: background-color 0.3s ease;
+}
+
+center button:hover {
+    background-color: #325c1a;
+}

@@ -1,0 +1,52 @@
+body {
+    background-image: url("../Imagenes/4.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    color: #f10808;
+}
+
+center {
+    background-color: rgba(0, 0, 0, 0.65);
+    border: 3px solid #ffcb05;
+    border-radius: 20px;
+    margin: 30px auto;
+    padding: 30px;
+    width: 85%;
+    max-width: 700px;
+    box-shadow: 0 0 20px #3b4cca; 
+}
+
+
+h1 {
+    color: #ffcb05;
+    text-shadow: 2px 2px 4px #3b4cca;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #e224d2; 
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+button:hover {
+    background-color: #5e053f;
+}
